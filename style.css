@@ -15,9 +15,10 @@
   padding-inline: 5%;
   padding-block: 1.5%;
   align-items: baseline;
-  /* position: fixed;
+  position: fixed;
   width: 100%;
-  overflow: hidden; */
+  overflow: hidden;
+  z-index: 3;
 }
 .logoMedium {
   flex-grow: 1;
@@ -42,6 +43,7 @@
   cursor: pointer;
 }
 .header {
+  position: relative;
   display: flex;
   flex-direction: row;
   background-color: #ffc017;
@@ -76,7 +78,9 @@
   width: 40%;
 }
 .mAnimation {
-  overflow: hidden;
+  position: absolute;
+  bottom: -21px;
+  right: 0;
 }
 
 /* Fine Header */
@@ -154,8 +158,7 @@
   display: flex;
   flex-direction: column;
 }
-/* .article {
-} */
+
 .foto {
   width: 150px;
   height: 150px;
