@@ -25,6 +25,10 @@
   margin-left: 25px;
   cursor: pointer;
 }
+.navMenu li a {
+  color: #191919;
+  text-decoration: none;
+}
 .navButton {
   margin-inline: 1%;
   padding: 0.8%;
@@ -33,4 +37,103 @@
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffc017;
+  justify-content: space-between;
+  padding-left: 5%;
+  border-bottom: 1px solid #191919;
+}
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  padding: 93px 0px 92px;
+}
+.mainHeader h1 {
+  font-size: 6rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+}
+.mainHeader h3 {
+  padding-block: 2rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #191919;
+}
+.mainHeader button {
+  margin: 1%;
+  padding: 1%;
+  background-color: #191919;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  width: 40%;
+}
+
+/* Fine Header */
+
+.trendingSection {
+  margin-top: 3%;
+  padding-inline: 6%;
+}
+.trendTitle {
+  display: flex;
+  align-items: center;
+}
+.trendTitle img {
+  vertical-align: middle;
+  margin-right: 1%;
+}
+.trendTitle h2 {
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.trendingPost {
+  margin-top: 1.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.singlePost {
+  display: flex;
+  margin-bottom: 2%;
+  width: 33%;
+}
+.trendingPostBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.trendingPostBody h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-block: 1.5%;
+}
+
+.trendingPostTitle {
+  display: flex;
+}
+.trendingPostTitle img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 3%;
+}
+.trendingPostTitle h4 {
+  margin-block: 1%;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+}
+.numberOfPost {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #cdc9c9;
+  margin-inline: 1%;
+}
+.trendingPostFooter {
+  display: flex;
+  color: gray;
 }
