@@ -15,6 +15,9 @@
   padding-inline: 5%;
   padding-block: 1.5%;
   align-items: baseline;
+  /* position: fixed;
+  width: 100%;
+  overflow: hidden; */
 }
 .logoMedium {
   flex-grow: 1;
@@ -38,7 +41,7 @@
   font-weight: bold;
   cursor: pointer;
 }
-header {
+.header {
   display: flex;
   flex-direction: row;
   background-color: #ffc017;
@@ -71,6 +74,9 @@ header {
   color: white;
   cursor: pointer;
   width: 40%;
+}
+.mAnimation {
+  overflow: hidden;
 }
 
 /* Fine Header */
@@ -136,4 +142,32 @@ header {
 .trendingPostFooter {
   display: flex;
   color: gray;
+}
+/* Fine trending section */
+/* Inizio article section */
+
+.articleSection {
+  display: flex;
+  padding-inline: 6%;
+}
+.articleCont {
+  display: flex;
+  flex-direction: column;
+}
+/* .article {
+} */
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin-right: 3%;
+}
+.articleAuthor {
+  display: flex;
+}
+.articleAuthor img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 3%;
 }
