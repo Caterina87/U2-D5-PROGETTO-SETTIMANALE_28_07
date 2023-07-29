@@ -42,6 +42,9 @@
   font-weight: bold;
   cursor: pointer;
 }
+.navButton:hover {
+  background-color: #1a8917;
+}
 .header {
   position: relative;
   display: flex;
@@ -140,7 +143,7 @@
 .numberOfPost {
   font-size: 2rem;
   font-weight: 500;
-  color: #cdc9c9;
+  color: #f2f2f2;
   margin-inline: 1%;
 }
 .trendingPostFooter {
@@ -149,21 +152,15 @@
 }
 /* Fine trending section */
 /* Inizio article section */
-
 .articleSection {
   display: flex;
-  padding-inline: 6%;
+  padding: 6%;
 }
 .articleCont {
-  display: flex;
-  flex-direction: column;
+  column-gap: 20px;
 }
-
-.foto {
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  margin-right: 3%;
+.article {
+  display: flex;
 }
 .articleAuthor {
   display: flex;
@@ -173,4 +170,71 @@
   height: 20px;
   border-radius: 5px;
   margin-right: 3%;
+}
+.articleBody h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-block: 1.5%;
+  font-size: 1.3rem;
+}
+.articleBody h3 {
+  color: #6b6b6b;
+  font-family: "Roboto", sans-serif;
+  margin-block: 1.5%;
+  font-size: 1.1rem;
+  width: 500px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.articleFooter {
+  display: flex;
+  color: #6b6b6b;
+  font-family: "Roboto", sans-serif;
+  margin-block: 4%;
+}
+.grow {
+  flex-grow: 1;
+}
+.foto {
+  width: 170px;
+  height: 150px;
+  margin-inline: 1.5%;
+}
+.aside {
+  margin-left: 6%;
+}
+.asideTitle h2 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.5%;
+  margin-bottom: 4%;
+}
+.asideBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8%;
+}
+.boxDiscoverMore {
+  width: fit-content;
+  border: 1px solid #6b6b6b;
+  padding: 10px;
+  color: #6b6b6b;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.moreTag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 8%;
+  font-family: "Roboto", sans-serif;
+}
+.moreTag div a {
+  text-decoration: none;
+  color: #6b6b6b;
 }
