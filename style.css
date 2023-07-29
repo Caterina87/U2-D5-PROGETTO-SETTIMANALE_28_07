@@ -238,3 +238,11 @@
   text-decoration: none;
   color: #6b6b6b;
 }
+
+.whiteHeader {
+  background-color: white;
+}
+.greenButton {
+  background-color: #1a8917;
+  border: 1px solid #1a8917;
+}
